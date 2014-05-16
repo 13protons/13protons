@@ -40,35 +40,7 @@
 
     
     <url>
-        <loc>//localhost:4000/jekyll/update/welcome-to-jekyll/</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/articles/code-highlighting-post/</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/articles/sample-link-post/</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/articles/video-post/</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/articles/readability-feature-post/</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/articles/sample-post-images/</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/articles/readability-post/</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/articles/sample-post/</loc>
+        <loc>//localhost:4000/articles/hello-world/</loc>
     </url>
     
 </urlset>

@@ -4,6 +4,7 @@ permalink: /about/
 title: "Your hair looks great today. "
 description: "...and notes about why we think you'll also be excited to cook while traveling"
 share: true
+tags: [Alan, Erika]
 image:
   feature: ferndale_soup_group.jpg
   credit: Alan Languirand

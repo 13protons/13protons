@@ -7,10 +7,10 @@ search:           true
 # You don't need to specify the protocol if you want it available on http and https. Example: //localhost:4000
 
 #local:
-#url:              //localhost:4000
+url:              //localhost:4000
 
 #production:
-url:              //alanguir.github.io
+#url:              //alanguir.github.io
 
 # Owner/author information
 owner:
@@ -66,5 +66,5 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
-#include: [".htaccess"]
-#exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+include: [".htaccess"]
+exclude: ["examples", "lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
