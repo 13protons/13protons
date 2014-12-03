@@ -5,6 +5,13 @@ body {
   font-size: 2rem;
   margin: 0; padding: 0;
 }
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 h1 {font-size: 4rem; font-weight: 100;}
 h2, h3, {
   font-size: 2rem;
@@ -17,6 +24,17 @@ h2:not(:first-of-type) {margin-top: 3em;}
   padding: 1em;
   margin: 0 auto;
 }
+
+a {
+  color: #F2B705; 
+  text-decoration: none;
+  font-weight: 400;
+  &:hover {
+    color: #BF820F;
+    text-decoration: underline;
+  }
+}
+
 
 ul.contact {
   margin: 0 0 1.5em 0; padding: 0;
@@ -31,6 +49,65 @@ ul.contact {
         display: inline-block;
         text-align: center;
         }
+    }
+  }
+}
+
+.images {
+  
+  .hero {
+    height: auto;
+    
+    min-height: 400px; 
+    line-height: 400px;
+    background-color: #f2f2f2;
+    -webkit-transition: height 1s;
+    transition: height 1s;
+    
+    img {
+      width: 100%;
+      vertical-align: middle;
+    }
+  }
+  
+  .thumbs {
+    padding: 1rem 0;
+    .thumb {
+      display: inline-block;
+      height: 100px;
+      img {height: 100%;}
+      cursor: pointer;
+      padding: .5rem;
+      margin-right: .5rem;
+    }
+  }
+  
+}
+
+.work_placard{  
+  margin: 0; padding-bottom: 1em;
+  img {width: 100%;}
+  box-sizing: border-box;
+  &.column_1 {padding-right: .5em;}
+  &.column_2 {padding-left: .25em; padding-right: .25em;}
+  &.column_3 {padding-left: .5em;}
+  
+  .banner {
+    border-bottom: 1px solid #f0f0f0;
+    &.fill {
+      cursor: pointer;
+      img { display: none; }
+      height: 4em;
+      
+      background-size: cover;
+    }
+  }
+  .content {
+    border-radius: 3px;
+    p {
+      margin: 0;padding: .5em;
+      font-size: 1rem;
+
     }
   }
 }

@@ -1,19 +1,75 @@
 [
 	
 		{
-		  "title"      : "Test",
+		  "title"      : "Apprend",
 		  "category"   : "",
-		  "url"        : "/work/test/",
-		  "date"       : "2014-05-16 00:00:00 -0400",
-		  "shortdate"  : "May 16, 2014"
+		  "url"        : "/work/apprend/",
+		  "date"       : "2014-11-22 00:00:00 -0500",
+		  "shortdate"  : "November 22, 2014"
 		} ,
 	
 		{
-		  "title"      : "Hello World",
-		  "category"   : "work",
-		  "url"        : "/work/hello-world/",
-		  "date"       : "2014-05-16 00:00:00 -0400",
-		  "shortdate"  : "May 16, 2014"
+		  "title"      : "Zettajs.org",
+		  "category"   : "",
+		  "url"        : "/work/zettajs_org/",
+		  "date"       : "2014-11-14 00:00:00 -0500",
+		  "shortdate"  : "November 14, 2014"
+		} ,
+	
+		{
+		  "title"      : "Zetta Browser",
+		  "category"   : "",
+		  "url"        : "/work/zetta_browser/",
+		  "date"       : "2014-10-10 00:00:00 -0400",
+		  "shortdate"  : "October 10, 2014"
+		} ,
+	
+		{
+		  "title"      : "Deckdown",
+		  "category"   : "",
+		  "url"        : "/work/deckdown/",
+		  "date"       : "2014-09-07 00:00:00 -0400",
+		  "shortdate"  : "September 07, 2014"
+		} ,
+	
+		{
+		  "title"      : "API Craft",
+		  "category"   : "",
+		  "url"        : "/work/apicraft/",
+		  "date"       : "2014-07-16 00:00:00 -0400",
+		  "shortdate"  : "July 16, 2014"
+		} ,
+	
+		{
+		  "title"      : "API Atlas",
+		  "category"   : "",
+		  "url"        : "/work/apiatlas/",
+		  "date"       : "2013-03-28 00:00:00 -0400",
+		  "shortdate"  : "March 28, 2013"
+		} ,
+	
+		{
+		  "title"      : "Argo Logo",
+		  "category"   : "",
+		  "url"        : "/work/argo/",
+		  "date"       : "2012-11-16 00:00:00 -0500",
+		  "shortdate"  : "November 16, 2012"
+		} ,
+	
+		{
+		  "title"      : "Detroit Lives",
+		  "category"   : "",
+		  "url"        : "/work/detroitlives/",
+		  "date"       : "2012-05-16 00:00:00 -0400",
+		  "shortdate"  : "May 16, 2012"
+		} ,
+	
+		{
+		  "title"      : "DRC Website",
+		  "category"   : "",
+		  "url"        : "/work/drc_com/",
+		  "date"       : "2012-02-07 00:00:00 -0500",
+		  "shortdate"  : "February 07, 2012"
 		} 
 	
 ]

@@ -1,6 +1,24 @@
 {% include head.html %}
 {% include hero.html %}
 
+{% if page.images.size > 0 %}
+<section class="images">
+  <div class="hero shadow-1">
+    <img src="/images/full/{{ page.images[0] }}"/>
+  </div>  
+  {% if page.images.size > 1 %}
+    <div class="thumbs">
+    {% for image in page.images %} 
+      <div class="thumb shadow-1 shadow-active-3">
+        <img src="/images/small/{{image}}" data-full="/images/full/{{image}}"/>
+      </div>
+    {% endfor %}
+    </div>
+  {% endif %}
+</section>
+
+{% endif %}
+
 {{ content }}
 
 {% include footer.html %}
