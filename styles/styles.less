@@ -1,3 +1,5 @@
+@link: #F2B705;
+
 body {
   
   font-family: 'Source Sans Pro', sans-serif;
@@ -23,10 +25,13 @@ h2:not(:first-of-type) {margin-top: 3em;}
   max-width: 48rem;
   padding: 1em;
   margin: 0 auto;
+  &.work {
+    h1 {margin-top: 0;}
+  }
 }
 
 a {
-  color: #F2B705; 
+  color: @link; 
   text-decoration: none;
   font-weight: 400;
   &:hover {
@@ -56,16 +61,16 @@ ul.contact {
 .images {
   
   .hero {
-    height: auto;
     
-    min-height: 400px; 
-    line-height: 400px;
+    
     background-color: #f2f2f2;
-    -webkit-transition: height 1s;
-    transition: height 1s;
+    min-height: 15rem;
+    max-height: 35rem;
+    text-align: center;
     
     img {
-      width: 100%;
+      max-width: 100%;
+      max-height: 35rem;
       vertical-align: middle;
     }
   }
@@ -82,6 +87,19 @@ ul.contact {
     }
   }
   
+}
+
+
+.backlink {
+  font-size: 1rem;
+  padding-left: 1.2em;
+  
+  background-image: url(/images/back.png);
+  background-repeat: no-repeat;
+  background-size: 1em auto;
+  background-position: left center;
+  
+  line-height: 1rem;
 }
 
 .work_placard{  

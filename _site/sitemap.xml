@@ -2,6 +2,8 @@
 <html>
   <title></title>
   <meta charset="UTF-8">
+  <meta name="fragment" content="!" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <meta name="description" content="">
   
   <meta name="author" content="Alan Languirand">
@@ -15,6 +17,7 @@
 
 <body>
   <div id="page" class="work">
+<a href="/" class="backlink">home</a>
 <header>
   <h1></h1>
   <ul class="contact">
