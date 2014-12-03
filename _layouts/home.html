@@ -1,0 +1,23 @@
+{% include head.html %}
+{% include hero.html %}
+
+<h2>Web Development<br/> &amp; Design</h2>
+
+{% for post in site.categories["work"] %} 
+<section class="work_placard">
+  <div class="banner"><img src=""/></div>
+  <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+</section>
+{% endfor %}
+
+<h2>For hire</h2>
+
+<p>{{ page.tags | array_to_sentence_string }}</p>
+
+<h2>Alan Languirand</h2>
+
+<p>Hi, my name is Alan and I have over 10 years of Design and Development experience. I’ve worked for corporations, small businesses and silicon valley startups. My background is in Graphic Design, Photography, Web Development, and Teaching.</p>
+
+<p>I’m based in Detroit, Michigan. Hire me for your next project.</p>
+
+{% include footer.html %}

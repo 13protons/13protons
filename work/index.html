@@ -1,0 +1,10 @@
+---
+layout: work
+title: Work
+---
+{% for post in site.categories["work"] %} 
+<section class="work_placard">
+  <div class="banner"><img src=""/></div>
+  <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+</section>
+{% endfor %}

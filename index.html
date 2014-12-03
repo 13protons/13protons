@@ -1,12 +1,5 @@
 ---
-layout: page
-title: Latest Posts
-description: "A simple and clean responsive Jekyll theme for words and photos."
-tags: [Jekyll, theme, themes, responsive, blog, minimalism]
+layout: home
+title: 13protons
+tags: [Javascript, HTML/CSS, Node.js, Angular.js, Wordpress, Jekyll, Git, Heroku, Technical Consult, Technical Project Management, Information Architecture, User Experience Design, User Interface Development, Graphic Design, Logo Design, Arduino, Beaglebone, Cordova, Education, Just Ask]
 ---
-
-<ul class="post-list">
-{% for post in site.posts limit:10 %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-{% endfor %}
-</ul>

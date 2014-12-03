@@ -1,46 +1,64 @@
+<!DOCTYPE html >
+<html>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  
+  <meta name="author" content="Alan Languirand">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600' rel='stylesheet' type='text/css'>
+  <link href='/styles/styles.css'  rel='stylesheet' type='text/css'>
+</html>
+
+<body>
+  <div id="page" class="work">
+<header>
+  <h1></h1>
+  <ul class="contact">
+    <li>hello [at] 13protons.com</a></li>
+    <li><a href="https://twitter.com/13protons">@13protons</a></li>
+    <li><a href="https://github.com/alanguir">github.com/alanguir</a></li>
+    <li>(734) 707-1908</a></li>
+  </ul>
+</header>
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>//localhost:4000</loc>
+        <loc></loc>
     </url>
     
     
     <url>
-        <loc>//localhost:4000/404.html</loc>
+        <loc>/404.html</loc>
     </url>
     
     <url>
-        <loc>//localhost:4000/about/</loc>
+        <loc>/index.html</loc>
     </url>
     
     <url>
-        <loc>//localhost:4000/articles/</loc>
+        <loc>/work/index.html</loc>
     </url>
     
     <url>
-        <loc>//localhost:4000/feed.xml</loc>
+        <loc>/search.json</loc>
     </url>
     
     <url>
-        <loc>//localhost:4000/index.html</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/search.json</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/sitemap.xml</loc>
-    </url>
-    
-    <url>
-        <loc>//localhost:4000/tags/</loc>
+        <loc>/sitemap.xml</loc>
     </url>
     
 
     
     <url>
-        <loc>//localhost:4000/articles/hello-world/</loc>
+        <loc>/work/test/</loc>
+    </url>
+    
+    <url>
+        <loc>/work/hello-world/</loc>
     </url>
     
 </urlset>
+
+<footer>2014 13protons</footer>
+</body>

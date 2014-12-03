@@ -1,0 +1,13 @@
+{
+  "name": "13protons",
+  "version": "0.5.0",
+  "description": "Asset pipeline for 13protons.com",
+  "main": "gulpfile.js",
+  "repository": "alanguir.github.io",
+  "author": "Alan Languirand <alan@13protons.com>",
+  "devDependencies": {
+    "gulp": "~3.8.6",
+    "gulp-less-sourcemap": "^1.3.3",
+    "gulp-minify-css": "^0.3.11"
+  }
+}
