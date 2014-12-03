@@ -18,6 +18,10 @@
   {% endif %}
 </section>
 
+{% if page.link %}
+<p><a href="{{ page.link }}">{{ page.link }}</a></p>
+{% endif %}
+
 {% endif %}
 
 {{ content }}

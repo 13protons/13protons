@@ -1,7 +1,7 @@
 ---
 layout: work
 title: "Zettajs.org"
-url: 'http://zettajs.org/'
+link: 'http://zettajs.org/'
 images: 
   - zetta_projects.jpg
   - Zetta_website.jpg

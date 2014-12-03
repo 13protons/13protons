@@ -1,7 +1,7 @@
 ---
 layout: work
 title: "Detroit Lives"
-url: 'http://detroitlives.com/'
+link: 'http://detroitlives.com/'
 images: 
   - dl_website.jpg
 ---
