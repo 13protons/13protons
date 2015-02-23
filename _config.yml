@@ -3,7 +3,7 @@ description:      Web Design and Development in Detroit
 
 host: localhost
 port: 3030
-baseurl: ""
+baseurl: "/13protons"
 
 layouts:      _layouts
 
