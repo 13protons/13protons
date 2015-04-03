@@ -50,7 +50,7 @@ I taught classes on a range of technical topics, including HTML, CSS, JavaScript
 [Website](http://www.grandcircus.co/)
 
 ### Detroit Regional Chamber
-**Multimedia Designer, September 2008 – January 2012 (3 years 5 months)**
+**Multimedia Designer, September 2008 – January 2012**
 
 I managed all design related components of the Detroit Regional Chamber online identities. I photographed for their magazine, the Detroiter (circulation ~ 20k), I develop applications and plugins for their websites' platforms. Later in my tenure at the DRC, I helped project manage the redesign & re-implementation of [detroitchamber.com/](http://www.detroitchamber.com/).
 
