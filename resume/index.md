@@ -5,6 +5,14 @@ title: "Resum&eacute;"
 
 ## Experience
 
+### Team Detroit
+**Senior Frontend Developer, April 2015 – Present**
+Dearborn, MI
+
+Team Detroit is Ford Motor Company's ad agency, and I work on a project team [re]creating the Ford Credit websites. I work with people in the US and abroad building Angular, Node and AEM (Adobe Experience Manager) based applications to manage online auto loan and lease accounts. In my role, I contribute to architectural decisions at most points of our technology stack, own our agile and release processes, and work on daily front end development tasks. Products I've contributed to are scheduled to be released Q1 2016.
+
+[Website](https://www.teamdetroit.com/)
+
 ### Apprend
 **Founder, November 2014 – Present**
 Detroit, MI
