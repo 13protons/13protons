@@ -5,16 +5,36 @@ title: "Resum&eacute;"
 
 ## Experience
 
+### Detroit Labs
+**Senior Frontend Developer, Jan 2016 – Present**
+Detroit, MI
+
+Detroit Labs is a mobile app development shop in downtown Detroit with dozens of clients you'd recognize (Jimmy Johns and Domino's pizza apps, for example). I work on site at General Motors with a mix of Detroit Labs developers, GM employees, and members of other staffing agencies. While there I've worked on in-vehicle apps, and was the lead developer for vehicle emulation software aimed at helping outside developers build for the latest generation of GM vehicles. I've worked in developer, lead developer, architect, and team-lead roles, while also getting experience hosting and participating in hackathons centered around the software I helped create.
+
+While in this role I learned GM's proprietary app framework (NGI), built a cross platform desktop app with Electron, authored Node.js modules, and gained lost of experience with Mocha, Jasmine, Webpack, Angular 1.x, Vue.js and many other facets of the modern front-end stack.
+
+[Detroit Labs](http://www.detroitlabs.com/), [NGI Emulator](http://developer.gm.com/ngi)
+
+
+### Slows Barbq
+
+**July 2015 - Present**
+Detroit, MI
+
+Since 2015, I've been a full service vendor for Slows' web site. This includes design and implementation of the website, developing new features (such as delivery verification and beer menu searching), a custom intake process for catering requests, and design and technical consultation for the slows online retail presence.
+
+[Slows Website](http://slowsbarbq.com)
+
 ### Team Detroit
-**Senior Frontend Developer, April 2015 – Present**
+**Senior Frontend Developer, April 2015 – January 2016**
 Dearborn, MI
 
-Team Detroit is Ford Motor Company's ad agency, and I work on a project team [re]creating the Ford Credit websites. I work with people in the US and abroad building Angular, Node and AEM (Adobe Experience Manager) based applications to manage online auto loan and lease accounts. In my role, I contribute to architectural decisions at most points of our technology stack, own our Agile and release processes, and work on daily front end development tasks. Products I've contributed to are scheduled to be released Q1 2016.
+Team Detroit is Ford Motor Company's ad agency, and I worked on a project team [re]creating the Ford Credit websites. I worked with people in the US and abroad building Angular, Node and AEM (Adobe Experience Manager) based applications to manage online auto loan and lease accounts. In my role, I contributed to architectural decisions at most points of our technology stack, owned our Agile and release processes, and worked on daily front end development tasks.
 
 [Website](https://www.teamdetroit.com/)
 
 ### Apprend
-**Founder, November 2014 – Present**
+**Founder, November 2014 – April 2015**
 Detroit, MI
 
 Apprend is a company focused on teaching people about software and technology. We offer affordable instructor led classroom-based learning for technology that is in demand. My role is running the company, developing curriculum, hiring instructors, managing class registration, marking events, website design, website development & other startup/founder/CEO duties. More at [apprend.org](https://apprend.org)

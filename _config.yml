@@ -5,8 +5,6 @@ host: localhost
 port: 3030
 baseurl: ""
 
-layouts:      _layouts
-
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Detroit
 markdown:    kramdown
@@ -15,8 +13,15 @@ future:      true
 show_drafts: false
 limit_posts: 0
 
+paginate: 13
+
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+permalink: /:categories/:year/:month/:day/:slug.html
+
+collections:
+  work:
+    output: true
+    permalink: /work/:slug/
 
 kramdown:
   input: GFM

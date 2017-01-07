@@ -1,15 +1,15 @@
 {% include head.html %}
-<a href="/" class="backlink">home</a>
+<a href="/work" class="backlink">portfolio</a>
 {% include hero.html %}
 
 {% if page.images.size > 0 %}
 <section class="images">
   <div class="hero shadow-1">
     <img src="/images/full/{{ page.images[0] }}"/>
-  </div>  
+  </div>
   {% if page.images.size > 1 %}
     <div class="thumbs">
-    {% for image in page.images %} 
+    {% for image in page.images %}
       <div class="thumb shadow-1 shadow-active-3">
         <img src="/images/small/{{image}}" data-full="/images/full/{{image}}"/>
       </div>

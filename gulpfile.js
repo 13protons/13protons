@@ -27,14 +27,13 @@ gulp.task('styles', function() {
 });
 
 gulp.task('images', function() {
-  return gulp.src('./img_source/**')
+  return  gulp.src('./img_source/**')
       .pipe(imageResize({
         width: 1200,
         format: 'jpg',
         quality: .7
        }))
-      .pipe(gulp.dest('./images/full/'));
-  gulp.src('./img_source/**')
+      .pipe(gulp.dest('./images/full/'))
       .pipe(imageResize({
         width: 300,
         format: 'jpg',

@@ -1,0 +1,13 @@
+{% include head.html %}
+{% include hero.html %}
+
+<article class="post">
+  <section class="meta">
+    <small>Posted on {{page.date | date: "%B %d, %Y" }}</small>
+  </section>
+  <section class="body">
+    {{content}}
+  </section>
+</article>
+
+{% include footer.html %}
