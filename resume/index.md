@@ -5,8 +5,22 @@ title: "Resum&eacute;"
 
 ## Experience
 
+### General Motors
+**Senior Web & Nodejs Developer, May 2017 – Present**
+Detroit, MI
+
+I lead a software team at General Motors focused on creating tools for developers that are building apps for GM's in-vehicle infotainment system. My roles on this team include senior developer, lead architect, product owner, and dev team manager. 
+
+On this team, I've helped build and release two industry-first products - A vehicle emulator desktop app built with Electron and installed as a Node.js module called the NGI Emulator, and an in-vehicle app which can turn virtually any production vehicle into a secure infotainment app testing platform called GM Dev Client.
+
+ * [NGI Emulator Tech Crunch Announcement](https://techcrunch.com/2013/01/07/gm-announces-new-app-framework-sdk-and-store-for-in-vehicle-apps/)
+ * [GM Dev Client Tech Crunch Announcement](https://techcrunch.com/2017/07/21/gm-now-lets-developers-test-their-in-car-apps-running-in-actual-cars/)
+ * [GM Infotainment SDK](http://www.developer.gm.com/ngi)
+ * [GM Dev Client](http://www.developer.gm.com/ngi/dev-client)
+
+
 ### Detroit Labs
-**Senior Frontend Developer, Jan 2016 – Present**
+**Senior Frontend Developer, Jan 2016 – May 2017**
 Detroit, MI
 
 Detroit Labs is a mobile app development shop in downtown Detroit with dozens of clients you'd recognize (Jimmy Johns and Domino's pizza apps, for example). I work on site at General Motors with a mix of Detroit Labs developers, GM employees, and members of other staffing agencies. While there I've worked on in-vehicle apps, and was the lead developer for vehicle emulation software aimed at helping outside developers build for the latest generation of GM vehicles. I've worked in developer, lead developer, architect, and team-lead roles, while also getting experience hosting and participating in hackathons centered around the software I helped create.
