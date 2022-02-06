@@ -1,0 +1,28 @@
+
+module.exports = {
+  jit: true,
+  darkMode: 'class',
+  theme: {
+    
+    extend: {
+      fontFamily: {
+        hahmlet: ['Hahmlet', 'serif']
+      },
+      // screens: {
+      //   '2xl': {'max': '1279px'},
+      //   // => @media (max-width: 1535px) { ... }
+  
+      //   'xl': {'max': '1279px'},
+      // },
+    }
+  },
+  variants: {},
+  plugins: [],
+  content: [
+    "./components/**/*.{js,vue,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./nuxt.config.{js,ts}",
+  ],
+}
