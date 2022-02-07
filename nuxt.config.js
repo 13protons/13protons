@@ -35,7 +35,8 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxt/postcss8',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    '@aceforth/nuxt-optimized-images',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -56,9 +57,17 @@ export default {
         tailwindcss: {},
         autoprefixer: {},
       },
-    },
+    }
   },
-
+  optimizedImages: {
+    optimizeImages: true,
+    optimizeImagesInDev: true,
+    sqip: {
+      numberOfPrimitives: 64,
+      blur: 2,
+      mode: 0
+    }
+  },
   googleFonts: {
     preload: true,
     display: 'block',

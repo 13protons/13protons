@@ -14,8 +14,10 @@
         <p>I'm open to all sorts of things from job opportunities to mentoring those who are new to tech. Get in touch if you like what you see! </p> 
       </div>
       
-      <div class="grid justify-items-center p-8 rounded-lg ">
-        <img class="w-full max-w-lg mix-blend-lighten opacity-70 hover:opacity-100 transition-opacity duration-500" src="@/assets/img/alan-point.jpg">
+      <div class="grid justify-items-center p-8 rounded-lg transition-opacity duration-700" :class="{'opacity-40': loading, 'opacity-100': !loading}">
+        <img v-show="loading" :class="imgStyle" class="animate-pulse" src="@/assets/img/alan-point.png?sqip">
+        <img v-show="!loading" :class="imgStyle" src="@/assets/img/alan-point.jpg" @load="didLoadImg">
+        
       </div>
     </div>
    
@@ -25,5 +27,20 @@
 <script>
 export default {
   name: 'IntroText',
+  data() {
+    return {
+      loading: true
+    }
+  },
+  computed: {
+    imgStyle() {
+      return 'w-full max-w-lg mix-blend-lighten opacity-70 hover:opacity-100 transition-opacity duration-500'
+    }
+  },
+  methods: {
+    didLoadImg() {
+      this.loading = false;
+    }
+  }
 }
 </script>
