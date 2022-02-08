@@ -1,7 +1,6 @@
 ---
 title: Gaveta
 description: 'An open-source and mobile-friendly drawer component built for Vue.js'
-featured: true
 ---
 
 Gaveta ("drawer" in Brazilian Portuguese) is an open-source and mobile-friendly drawer component built for Vue.js. It's a distinct UI component open sourced from Farebox and available on Github and NPM
