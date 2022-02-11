@@ -1,11 +1,13 @@
 ---
 title: Spark Design System
 description: 'The official component library of Rocket Mortgage'
+images:
+  - path: 'spark/homepage.jpg'
 ---
+<StyleLink href="https://sparkdesignsystem.com">Spark site</StyleLink>
 
 My first role at Quicken Loans was as the software architect for the Spark Design System
 
-https://sparkdesignsystem.com
 
 In this role I provided technical direction for how to construct and package the design system used by Rocket Mortgage and related products. 
 

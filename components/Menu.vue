@@ -1,5 +1,5 @@
 <template>
-<div class="absolute top-0 right-0 flex flex-row space-x-px text-white">
+<div class="absolute top-0 right-0 flex flex-row space-x-px dark:text-white text-gray-500">
    <NuxtLink to="/" class="opacity-40 hover:opacity-100 ">
       <svg
         class="w-12 h-12 p-2 transition-opacity duration-500"
@@ -32,7 +32,7 @@
        </svg>
     </NuxtLink>
 
-    <NuxtLink to="/blog" class="opacity-40 hover:opacity-100 transition-opacity duration-500">
+    <!-- <NuxtLink to="/blog" class="opacity-40 hover:opacity-100 transition-opacity duration-500">
       <svg
         class="w-12 h-12 p-0"
         xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@
       >
         <path d="m299.6 431.82-114.49 39.199c-18.043 6.2227-36.09-11.199-29.867-29.867l39.199-114.48c1.2461-3.1094 3.1094-6.2227 5.6016-8.7109l209.07-209.07c34.844-34.844 143.73 73.422 108.27 108.27l-208.45 209.07c-3.1133 2.4883-5.6016 4.3555-9.332 5.5977z" fill="currentColor"/>
        </svg>
-    </NuxtLink>
+    </NuxtLink> -->
    
 </div>
 </template>
@@ -57,8 +57,8 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="postcss" scoped>
 .nuxt-link-exact-active {
-  color: #0891b2;
+  @apply dark:text-amber-500 text-sky-600;
 }
 </style>

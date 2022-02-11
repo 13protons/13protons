@@ -37,7 +37,12 @@ export default {
     '@nuxt/postcss8',
     '@nuxtjs/google-fonts',
     '@aceforth/nuxt-optimized-images',
+    '@nuxtjs/color-mode',
   ],
+
+  generate: {
+    fallback: true
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -78,5 +83,13 @@ export default {
         wght: [300, 400, 600]
       },
     }
+  },
+  colorMode: {
+    preference: 'system', // default value of $colorMode.preference
+    fallback: 'dark', // fallback value if not system preference found
+    componentName: 'ColorScheme',
+    classPrefix: '',
+    classSuffix: '',
+    storageKey: 'color-mode'
   }
 }

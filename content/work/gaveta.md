@@ -1,9 +1,20 @@
 ---
 title: Gaveta
 description: 'An open-source and mobile-friendly drawer component built for Vue.js'
+images:
+  - path: 'gaveta/drawer.jpg'
+    alt: 'The Gaveta readme file showing installation and basic usage'
+  - path: 'gaveta/readme.jpg'
+    alt: 'The demo homepage with Gaveta installed and in action! Plus a splash of humor'
 ---
 
+* <StyleLink href="https://farebox.github.io/gaveta/">Gaveta Mini Site</StyleLink>
+* <StyleLink href="https://medium.com/@alanlanguirand/you-cant-argue-with-results-b5b9472f4caa">Post on Medium</StyleLink>
+
+
 Gaveta ("drawer" in Brazilian Portuguese) is an open-source and mobile-friendly drawer component built for Vue.js. It's a distinct UI component open sourced from Farebox and available on Github and NPM
+
+<image-carousel :images="images"></image-carousel>
 
 Modern software development can fell like we add a mote of dust on top of a vast pile of open source projects that blazed the path for us. This was a small way to contribute to that vastness.
 

@@ -19,10 +19,10 @@ module.exports = {
   variants: {},
   plugins: [require('@tailwindcss/typography'),],
   content: [
-    "./components/**/*.{js,vue,ts}",
+    "./components/**/*.vue",
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
-    "./nuxt.config.{js,ts}",
+    "./plugins/**/*.js",
+    "./nuxt.config.js",
   ],
 }
