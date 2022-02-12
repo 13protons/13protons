@@ -1,5 +1,6 @@
 <template>
 <div class="pt-12">
+  <a name="footer"></a>
   <hr class="border-sky-700/50 dark:border-amber-700/50">
 
   <div class="flex justify-center pt-12 pb-4 space-x-4 print:block">
@@ -49,11 +50,19 @@
     <div class="print:hidden"><StyleLink to="/resume" >Resumé</StyleLink></div>
 
   </div>
+
+  <p class="text-center opacity-60">2011 - {{year}} 13protons</p>
 </div>
 </template>
 
 <script>
 export default {
   name: 'DefaultLayout',
+  computed: {
+    year() {
+      const d = new Date();
+      return d.getFullYear();
+    }
+  }
 }
 </script>

@@ -74,10 +74,10 @@ export default {
     }
   },
   googleFonts: {
-    preload: true,
     display: 'block',
     overwriting: false,
     download: true,
+    inject: true,
     families: {
       Hahmlet: {
         wght: [300, 400, 600]

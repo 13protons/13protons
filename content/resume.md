@@ -31,7 +31,11 @@ I took on many types of jobs for this product, including visual designer, intera
 
 ## Rocket Companies
 
-Design System Architect, Experience Director, Feb 2019 - April 2021 Detroit, MI
+<resume-meta>
+  <template #role>Design System Architect, Experience Director</template>
+  <template #duration>Feb 2019 - April 2021</template>
+  <template #location>Detroit, MI</template>
+</resume-meta>
 
 While at Rocket companies I had the role of Experience Director that sat in the middle of a large product management, creative, and development team all working toward building the next generation of a product known as Rocket Pro. 
 
@@ -49,7 +53,11 @@ This particular project and role was a departure for me from my usual tech focus
 
 ## General Motors
 
-Senior Web & Nodejs Developer, May 2017 – Feb 2019 Detroit, MI
+<resume-meta>
+  <template #role>Lead Developer</template>
+  <template #duration>May 2017 – Feb 2019</template>
+  <template #location>Detroit, MI</template>
+</resume-meta>
 
 I lead a software team at General Motors focused on creating tools for developers that are building apps for GM’s in-vehicle infotainment system. My roles on this team include senior developer, lead architect, product owner, and dev team manager.
 
@@ -65,7 +73,11 @@ On this team, I’ve helped build and release two industry-first products - A ve
 
 ## Detroit Labs
 
-Senior Frontend Developer, Jan 2016 – May 2017 Detroit, MI
+<resume-meta>
+  <template #role>Senior Frontend Developer</template>
+  <template #duration>Jan 2016 – May 2017</template>
+  <template #location>Detroit, MI</template>
+</resume-meta>
 
 Detroit Labs is a mobile app development shop in downtown Detroit with dozens of clients you’d recognize (Jimmy Johns and Domino’s pizza apps, for example). I work on site at General Motors with a mix of Detroit Labs developers, GM employees, and members of other staffing agencies. While there I’ve worked on in-vehicle apps, and was the lead developer for vehicle emulation software aimed at helping outside developers build for the latest generation of GM vehicles. I’ve worked in developer, lead developer, architect, and team-lead roles, while also getting experience hosting and participating in hackathons centered around the software I helped create.
 
@@ -75,7 +87,11 @@ While in this role I learned GM’s proprietary app framework (NGI), built a cro
 
 ## Slows Barbq
 
-July 2015 - Present Detroit, MI
+<resume-meta>
+  <template #role>Web Developer</template>
+  <template #duration>July 2015 - Present</template>
+  <template #location>Detroit, MI</template>
+</resume-meta>
 
 Since 2015, I’ve been a full service vendor for Slows’ web site. This includes design and implementation of the website, developing new features (such as delivery verification and beer menu searching), a custom intake process for catering requests, and design and technical consultation for the slows online retail presence.
 
@@ -83,7 +99,11 @@ Since 2015, I’ve been a full service vendor for Slows’ web site. This includ
 
 ## Team Detroit
 
-Senior Frontend Developer, April 2015 – January 2016 Dearborn, MI
+<resume-meta>
+  <template #role>Senior Frontend Developer</template>
+  <template #duration>April 2015 – January 2016</template>
+  <template #location>Dearborn, MI</template>
+</resume-meta>
 
 Team Detroit was Ford Motor Company’s ad agency, and I worked on a project team [re]creating the Ford Credit websites. I worked with people in the US and abroad building Angular, Node and AEM (Adobe Experience Manager) based applications to manage online auto loan and lease accounts. In my role, I contributed to architectural decisions at most points of our technology stack, owned our Agile and release processes, and worked on daily front end development tasks.
 
@@ -91,7 +111,11 @@ Team Detroit was Ford Motor Company’s ad agency, and I worked on a project tea
 
 ## Apprend
 
-Founder, November 2014 – April 2015 Detroit, MI
+<resume-meta>
+  <template #role>Founder</template>
+  <template #duration>November 2014 – April 2015</template>
+  <template #location>Detroit, MI</template>
+</resume-meta>
 
 Apprend is a company focused on teaching people about software and technology. We offer affordable instructor led classroom-based learning for technology that is in demand. My role is running the company, developing curriculum, hiring instructors, managing class registration, marking events, website design, website development & other startup/founder/CEO duties. More at apprend.org
 
@@ -99,13 +123,21 @@ Apprend is a company focused on teaching people about software and technology. W
 
 ## 13protons
 
-Owner, February 2011 – Present Detroit, MI
+<resume-meta>
+  <template #role>Owner</template>
+  <template #duration>February 2011 – Present</template>
+  <template #location>Detroit, MI</template>
+</resume-meta>
 
 I freelance under the name 13protons, and provide full stack development and design services for web based projects. Portfolio can be found at 13protons.com
 
 ## Apigee
 
-UI/UX Designer & Engineer, August 2012 – December 2014 Detroit, MI & San Francisco, CA
+<resume-meta>
+  <template #role>UI/UX Designer & Engineer</template>
+  <template #duration>August 2012 – December 2014</template>
+  <template #location>Detroit and Bay Area</template>
+</resume-meta>
 
 I had two major roles at Apigee. The first was being part of a sales process by building demo and POC mobile apps with a prospective client’s brand to illustrate how they could benefit from Apigee’s suite of API technology.
 
@@ -115,24 +147,37 @@ Both roles at Apigee involved working with new, and upcoming technology while co
 
 * <StyleLink href="https://cloud.google.com/apigee">Apigee is now part of Google Cloud Platform</StyleLink>
 
-Website - More Info 1, 2, 3
-
 ## Girl Develop It Detroit
-Instructor, February 2013 - Present Detroit, MI
+
+<resume-meta>
+  <template #role>Instructor</template>
+  <template #duration>February 2013 - 2015</template>
+  <template #location>Detroit, MI</template>
+</resume-meta>
 
 I periodically teach for Girl Develop It Detroit on topics such as JavaScript, HTML and CSS.
 
 * <StyleLink href="https://girldevelopit.com">Girl Develop It Website</StyleLink>
 
 ## Grand Circus
-Adjunct Instructor, October 2013 – November 2014 Detroit, MI
+
+<resume-meta>
+  <template #role>Adjunct Instructor</template>
+  <template #duration>October 2013 – November 2014</template>
+  <template #location>Detroit, MI</template>
+</resume-meta>
 
 I taught classes on a range of technical topics, including HTML, CSS, JavaScript, jQuery, and Ruby. My experiences here led directly to starting my own company to fill a gap in tech class offerings in Detroit.
 
 * <StyleLink href="https://www.grandcircus.co">Grand Circus Website</StyleLink>
 
 ## Detroit Regional Chamber
-Multimedia Designer, September 2008 – January 2012
+
+<resume-meta>
+  <template #role>Multimedia Designer</template>
+  <template #duration>September 2008 – January 2012</template>
+  <template #location>Detroit, MI</template>
+</resume-meta>
 
 I managed all design related components of the Detroit Regional Chamber online identities. I photographed for their magazine, the Detroiter (circulation ~ 20k), I develop applications and plugins for their websites’ platforms. Later in my tenure at the DRC, I helped project manage the redesign & re-implementation of detroitchamber.com/.
 
@@ -141,7 +186,10 @@ I managed all design related components of the Detroit Regional Chamber online i
 Other Projects
 
 ## API Craft Conference
-April 2013 – July 2015
+
+<resume-meta>
+  <template #duration>April 2013 – July 2015</template>
+</resume-meta>
 
 I designed the branding and web presence for API Craft Conference since while helping to organize and run the event itself. It’s was an annual conference held in an Open Space format meant to bring together the best minds in APIs today to help advance the state of the art.
 

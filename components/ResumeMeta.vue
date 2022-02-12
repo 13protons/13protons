@@ -1,10 +1,20 @@
 <template>
   <div class="space-x-4 uppercase font-sans font-bold">
-    <span><slot name="role"></slot></span>
-    <span><slot name="duration"></slot></span>
-    <span><slot name="location"></slot></span>
+    <span v-if="hasSlot('role')"><slot name="role"></slot></span>
+    <span v-if="hasSlot('duration')"><slot name="duration"></slot></span>
+    <span v-if="hasSlot('location')"><slot name="location"></slot></span>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    hasSlot (name = 'default') {
+      return !!this.$slots[ name ] || !!this.$scopedSlots[ name ];
+    }
+  }
+}
+</script>
 
 <style lang="postcss" scoped>
   span {

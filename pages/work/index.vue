@@ -2,7 +2,7 @@
   <div class="py-20">
     <h2 class="text-4xl font-bold mb-8">Here's some things <br class="md:hidden">I've done</h2>
 
-    <div class="flex flex-col space-y-12">
+    <div class="grid grid-cols-1 xl:grid-cols-2 gap-8">
       <nuxt-link
         v-for="item in features"
         :key="item.title"
@@ -40,7 +40,7 @@
           class="
             bg-slate-800
             h-48
-            shrink-0
+            min-w-[16em]
             w-full
             rounded-t-lg
             md:rounded-l-lg md:rounded-tr-none md:w-64 md:h-full
@@ -49,7 +49,7 @@
           :class="item.heroClass"
           :style="{ backgroundImage: `url(${require(`@/assets/img/work/${featuredImage(item)}?resize&size=300&format=jpg`)})` }"
         ></div>
-        <div class="p-5 grow flex flex-col">
+        <div class="p-5 flex flex-col">
           
             <div class="mb-4">
               <h4 class="text-lg font-bold">

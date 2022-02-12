@@ -12,7 +12,7 @@
 
       <!-- <p>I've tried my hand at all manner of projects, and I love where software overlaps with the people that need to use it, and the physical world it's meant to model or interact with. </p>-->
 
-      <p><StyleLink to="/contact" >Get in touch</StyleLink> if you like what you see!</p>
+      <p>If you like what you see, <a href="#footer" class="link">Get in touch!</a> <br>(links at bottom of page)</p>
     </div>
 
     <div class="grid justify-items-center p-8 rounded-lg ">
