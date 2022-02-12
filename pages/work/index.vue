@@ -47,7 +47,7 @@
             bg-cover
           "
           :class="item.heroClass"
-          :style="{ backgroundImage: `url(/work/${featuredImage(item)})` }"
+          :style="{ backgroundImage: `url(${require(`@/assets/img/work/${featuredImage(item)}?resize&size=300&format=jpg`)})` }"
         ></div>
         <div class="p-5 grow flex flex-col">
           

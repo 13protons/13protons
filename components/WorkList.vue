@@ -34,7 +34,7 @@
         "
         :to="`/work/${item.slug}`"
       >
-        <div
+        <!-- <div
           class="
             bg-slate-800
             h-32
@@ -45,6 +45,19 @@
           "
           :class="item.heroClass"
           :style="{ backgroundImage: `url(/work/${featuredImage(item)}?resize&size=300&format=jpg)` }"
+        ></div> -->
+
+         <div
+          class="
+            bg-slate-800
+            h-32
+            shrink-0
+            w-full
+            rounded-t-lg
+            bg-cover
+          "
+          :class="item.heroClass"
+          :style="{ backgroundImage: `url(${require(`@/assets/img/work/${featuredImage(item)}?resize&size=300&format=jpg`)})` }"
         ></div>
         <div class="p-5 grow flex flex-col">
           
