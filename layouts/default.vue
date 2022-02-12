@@ -7,7 +7,7 @@
       dark:to-cyan-900 dark:via-black dark:from-slate-900
       min-h-screen
       py-12
-      px-4
+      px-2
       md:px-12
     "
   >

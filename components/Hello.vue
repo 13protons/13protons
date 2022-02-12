@@ -12,29 +12,35 @@
 
       <!-- <p>I've tried my hand at all manner of projects, and I love where software overlaps with the people that need to use it, and the physical world it's meant to model or interact with. </p>-->
 
-      <p>If you like what you see, <a href="#footer" class="link">Get in touch!</a> <br>(links at bottom of page)</p>
+      <p class="mb-0">
+        <a href="#footer" class="link">Get in touch</a> if you like what you see!
+        <br><span class="opacity-70">(links at bottom of page)</span>
+      </p>
     </div>
 
     <div class="grid justify-items-center p-8 rounded-lg ">
       
       
         <img
-          v-if="$colorMode.value == 'dark'"
-          v-show="!loadingDark"  
+          v-if="$colorMode.value == 'dark'"            
           alt="Photo of Alan smiling"
           :class="imgStyle"
+          width="720" height="540"
           class="mix-blend-lighten"
           src="@/assets/img/alan-point-dark.jpg"
-          @load="loadingDark = false"
         />
         <img
-          v-else 
-          v-show="!loadingLight"
+          v-else-if="$colorMode.value == 'light'" 
           alt="Photo of Alan smiling"
           class="mix-blend-darken"
           :class="imgStyle"
+          width="720" height="540"
           src="@/assets/img/alan-point-light.jpg"
-          @load="loadingLight = false"
+        />
+        <img 
+          v-else
+          width="720" height="540"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
         />
     </div>
   </div>

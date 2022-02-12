@@ -32,7 +32,7 @@ I took on many types of jobs for this product, including visual designer, intera
 ## Rocket Companies
 
 <resume-meta>
-  <template #role>Design System Architect, Experience Director</template>
+  <template #role>Experience Director</template>
   <template #duration>Feb 2019 - April 2021</template>
   <template #location>Detroit, MI</template>
 </resume-meta>

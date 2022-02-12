@@ -80,7 +80,7 @@ export default {
     inject: true,
     families: {
       Hahmlet: {
-        wght: [300, 400, 600]
+        wght: [300]
       },
     }
   },
