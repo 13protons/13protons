@@ -1,7 +1,7 @@
 <!-- Please remove this file from your project -->
 <template>
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-    <div class="text-lg max-w-prose leading-relaxed space-y-6">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 ">
+    <div class="text-lg max-w-prose leading-relaxed space-y-6 ">
       <p>
         I'm a tech generalist with deep knowledge of front-end web development
         and a long list of adjacencies. I went to school thinking I would become
@@ -15,19 +15,25 @@
       <p><StyleLink to="/contact" >Get in touch</StyleLink> if you like what you see!</p>
     </div>
 
-    <div class="grid justify-items-center p-8 rounded-lg">
-      <!-- <img
-        v-show="loading"
-        :class="imgStyle"
-        class="animate-pulse"
-        src="@/assets/img/alan-point.png?sqip"
-      /> -->
-      <img
-        v-show="!loading"
-        :class="imgStyle"
-        src="@/assets/img/alan-point.png"
-        @load="didLoadImg"
-      />
+    <div class="grid justify-items-center p-8 rounded-lg ">
+      
+      
+        <img
+          v-if="$colorMode.value == 'dark'" 
+          v-show="!loadingDark"  
+          :class="imgStyle"
+          class="mix-blend-lighten"
+          src="@/assets/img/alan-point-dark.jpg"
+          @load="loadingDark = false"
+        />
+        <img
+          v-else 
+          v-show="!loadingLight"
+          class="mix-blend-darken"
+          :class="imgStyle"
+          src="@/assets/img/alan-point-light.jpg"
+          @load="loadingLight = false"
+        />
     </div>
   </div>
 </template>
@@ -37,17 +43,13 @@ export default {
   name: 'IntroText',
   data() {
     return {
-      loading: true,
+      loadingDark: true,
+      loadingLight: true,
     }
   },
   computed: {
     imgStyle() {
-      return 'w-full max-w-lg dark:mix-blend-lighten opacity-70 hover:opacity-100 transition-opacity duration-500'
-    },
-  },
-  methods: {
-    didLoadImg() {
-      this.loading = false
+      return 'w-full max-w-lg opacity-70 hover:opacity-100 transition-opacity duration-500'
     },
   },
 }

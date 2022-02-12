@@ -68,7 +68,7 @@ export default {
     optimizeImages: true,
     optimizeImagesInDev: true,
     sqip: {
-      numberOfPrimitives: 64,
+      numberOfPrimitives: 96,
       blur: 2,
       mode: 0
     }
