@@ -19,8 +19,9 @@
       
       
         <img
-          v-if="$colorMode.value == 'dark'" 
+          v-if="$colorMode.value == 'dark'"
           v-show="!loadingDark"  
+          alt="Photo of Alan smiling"
           :class="imgStyle"
           class="mix-blend-lighten"
           src="@/assets/img/alan-point-dark.jpg"
@@ -29,6 +30,7 @@
         <img
           v-else 
           v-show="!loadingLight"
+          alt="Photo of Alan smiling"
           class="mix-blend-darken"
           :class="imgStyle"
           src="@/assets/img/alan-point-light.jpg"

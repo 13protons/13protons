@@ -26,6 +26,7 @@
           fill="currentColor"
         />
       </svg>
+      <span class="sr-only">13protons on GitHub</span>
     </StyleLink></div>
 
     <div><StyleLink href="https://twitter.com/13protons">
@@ -45,6 +46,7 @@
           fill="currentColor"
         />
       </svg>
+      <span class="sr-only">13protons on Twitter</span>
     </StyleLink></div>
 
     <div class="print:hidden"><StyleLink to="/resume" >Resumé</StyleLink></div>

@@ -1,8 +1,5 @@
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
-
-
-    
       <nuxt-link
         v-for="item in features"
         :key="item.title"
@@ -62,9 +59,9 @@
         <div class="p-5 grow flex flex-col">
           
             <div class="mb-4">
-              <h4 class="text-lg font-bold">
+              <h3 class="text-lg font-bold">
                 {{ item.title }}
-              </h4>
+              </h3>
             </div>
             <div class="grow">
               <p class="text-ellipsis">{{ item.description }}</p>
