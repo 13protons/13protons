@@ -20,10 +20,11 @@ description:
   <template #location>Detroit, MI</template>
 </resume-meta>
 
-
 I took on the role of technical co-founder for a new SaaS product, Farebox. Farebox is booking and scheduling software for buses, and provides all tools for running a charter bus business. 
 
-I took on many types of jobs for this product, including visual designer, interaction designer, developer, product developer, writing help docs, customer service...you know, it's a startup! We produced a suite of tools for charter bus operators and run The Detroit Bus Company and others on the product. Farebox has been used to take and fulfill hundreds of reservations, coordinate dozens of vehicles and drivers, and has processed hundreds of thousands of dollars in customer payments. 
+Key technologies used for building Farebox include Node.js, Express, Vue.js, MongoDB, Redis, Stripe, Mapbox, Postmark, Twilio, Nuxt, and Particle IOT. During the course of development I learned about containerizing with Docker, testing with Cypress, CI and deploy with Heroku, and more.
+
+I took on many types of jobs for this product, including visual designer, interaction designer, developer, product developer, writing help docs, customer service...you know, it's a startup! We produced a suite of tools for charter bus operators and run The Detroit Bus Company and others on the product. Farebox has been used to take and fulfill hundreds of reservations, coordinate dozens of vehicles and drivers, and has processed hundreds of thousands of dollars in customer payments.
 
 * <StyleLink href="https://farebox.io">Farebox marketing site</StyleLink>
 * <StyleLink href="https://app.farebox.io">Farebox App</StyleLink>
@@ -37,13 +38,13 @@ I took on many types of jobs for this product, including visual designer, intera
   <template #location>Detroit, MI</template>
 </resume-meta>
 
-While at Rocket companies I had the role of Experience Director that sat in the middle of a large product management, creative, and development team all working toward building the next generation of a product known as Rocket Pro. 
+While at Rocket companies I had the role of Experience Director. I sat in the middle of a large product management, creative, and development team all working toward building the next generation of a product known as Rocket Pro. 
 
-Rocket Pro itself is a third part mortgage origination tool that makes the most powerful parts of the Quicken Loans technology stack and internal loan validation process available as a SaaS product available to select partners. Depending on the level of partnership it was possible for users to interact with two very different but related products, one geared more towards a "retail" partnership with the other fitting tightly into a traditional broker origination process. 
+Rocket Pro itself is a third party mortgage origination tool that makes the most powerful parts of the Quicken Loans technology stack and internal loan validation process available as a SaaS product to select partners. Depending on the level of partnership it was possible for users to interact with two very different but related products, one geared more towards a "retail" partnership with the other built for traditional third-pary mortgage brokers. 
 
-I worked with product and engineering leadership to focus the efforts of a creative team composed of designers, information architects, user testing professionals, and copywriters. Our work spanned a wide range of the products, and I was directly involved in taking the retail version of the Rocket Pro interface from a generation 1 prototype that shared lots of it's DNA with the consumer facing Rocket Mortgage stack to a second generation product tailored to enabling part time 3rd party origination. 
+I worked with product and engineering leadership to focus the efforts of a creative team composed of designers, information architects, user testing professionals, and copywriters. Our work spanned a wide range of the products, and I was directly involved in taking the retail version of the Rocket Pro interface from a generation one prototype that shared lots of it's DNA with the consumer facing Rocket Mortgage stack to a second generation product tailored to enabling retail partnership for 3rd party origination. 
 
-During he course this work I dealt with many of the usual SaaS suspects, such as design system integration, welcome experiences, customer support experiences, and listing complex resources. I also learned about the entire mortgage origination process and helped develop the interfaces that surface critical information about the enormous number of ways that any given loan could fail to satisfy an aspect of underwriting. 
+During the course of this work I dealt with many of the usual SaaS suspects, such as design system integration, welcome experiences, customer support experiences, and listing complex resources. I also learned about the entire mortgage origination process and helped develop the interfaces that surface critical information about the enormous number of ways that any given loan could fail to satisfy an aspect of underwriting. 
 
 This particular project and role was a departure for me from my usual tech focused role, and I learned a great teal more about user testing and validation, structured approached to market and user research, and product management. 
 
@@ -59,9 +60,11 @@ This particular project and role was a departure for me from my usual tech focus
   <template #location>Detroit, MI</template>
 </resume-meta>
 
-I lead a software team at General Motors focused on creating tools for developers that are building apps for GM’s in-vehicle infotainment system. My roles on this team include senior developer, lead architect, product owner, and dev team manager.
+I led a software team at General Motors focused on creating tools for developers building apps for GM’s in-vehicle infotainment system. My roles on this team included senior developer, lead architect, product owner, and dev team manager.
 
-On this team, I’ve helped build and release two industry-first products - A vehicle emulator desktop app built with Electron and installed as a Node.js module called the NGI Emulator, and an in-vehicle app which can turn virtually any production vehicle into a secure infotainment app testing platform called GM Dev Client.
+On that team I helped build and release two industry-first products - A desktop app for emulating the in-vehicle runtime context called the NGI Emulator, and an in-vehicle app which can turn virtually any production vehicle into a secure infotainment app testing platform called GM Dev Client.
+
+I followed a contract-to-hire path to full time employment at GM, and my experience at Detroit Labs (below) was really the start of my time working in-vehicle apps and tools.
 
 * <StyleLink href="https://techcrunch.com/2013/01/07/gm-announces-new-app-framework-sdk-and-store-for-in-vehicle-apps/">NGI Emulator Tech Crunch Announcement</StyleLink>
 * <StyleLink href="https://techcrunch.com/2017/07/21/gm-now-lets-developers-test-their-in-car-apps-running-in-actual-cars/">GM Dev Client Tech Crunch Announcement</StyleLink>
@@ -79,7 +82,7 @@ On this team, I’ve helped build and release two industry-first products - A ve
   <template #location>Detroit, MI</template>
 </resume-meta>
 
-Detroit Labs is a mobile app development shop in downtown Detroit with dozens of clients you’d recognize (Jimmy Johns and Domino’s pizza apps, for example). I work on site at General Motors with a mix of Detroit Labs developers, GM employees, and members of other staffing agencies. While there I’ve worked on in-vehicle apps, and was the lead developer for vehicle emulation software aimed at helping outside developers build for the latest generation of GM vehicles. I’ve worked in developer, lead developer, architect, and team-lead roles, while also getting experience hosting and participating in hackathons centered around the software I helped create.
+Detroit Labs is a mobile app development shop in downtown Detroit with dozens of clients you’d recognize (Jimmy Johns and Domino’s pizza apps, for example). I worked on-site in a contract/consultation role at General Motors with a mix of Detroit Labs developers, GM employees, and members of other staffing agencies. While there I’ve worked on in-vehicle apps, and was the lead developer for vehicle emulation software aimed at helping outside developers build for the latest generation of GM vehicles. I’ve worked in developer, lead developer, architect, and team-lead roles, while also getting experience hosting and participating in hackathons centered around the software I helped create.
 
 While in this role I learned GM’s proprietary app framework (NGI), built a cross platform desktop app with Electron, authored Node.js modules, and gained lost of experience with Mocha, Jasmine, Webpack, Angular 1.x, Vue.js and many other facets of the modern front-end stack.
 
@@ -105,7 +108,7 @@ Since 2015, I’ve been a full service vendor for Slows’ web site. This includ
   <template #location>Dearborn, MI</template>
 </resume-meta>
 
-Team Detroit was Ford Motor Company’s ad agency, and I worked on a project team [re]creating the Ford Credit websites. I worked with people in the US and abroad building Angular, Node and AEM (Adobe Experience Manager) based applications to manage online auto loan and lease accounts. In my role, I contributed to architectural decisions at most points of our technology stack, owned our Agile and release processes, and worked on daily front end development tasks.
+Team Detroit was Ford Motor Company’s ad agency, and I worked on a project team building the next generation of the Ford Credit websites. I worked with people in the US and abroad building Angular, Node and AEM (Adobe Experience Manager) based applications to manage online auto loan and lease accounts. In my role, I contributed to architectural decisions at most points of our technology stack, owned our Agile and release processes, and worked on daily front end development tasks.
 
 * <StyleLink href="https://www.gtb.com">Team Detroit is now called Global Team Blue</StyleLink>
 
@@ -117,7 +120,7 @@ Team Detroit was Ford Motor Company’s ad agency, and I worked on a project tea
   <template #location>Detroit, MI</template>
 </resume-meta>
 
-Apprend is a company focused on teaching people about software and technology. We offer affordable instructor led classroom-based learning for technology that is in demand. My role is running the company, developing curriculum, hiring instructors, managing class registration, marking events, website design, website development & other startup/founder/CEO duties. More at apprend.org
+Apprend was a company focused on teaching people about software and technology. We offered affordable instructor-led and classroom-based learning for technology that was in demand. My role was running the company, developing curriculum, hiring instructors, managing class registration, marketing events, website design, website development & other startup/founder/CEO duties.
 
 * <StyleLink to="/work/apprend">More about Apprend</StyleLink>
 
@@ -129,7 +132,7 @@ Apprend is a company focused on teaching people about software and technology. W
   <template #location>Detroit, MI</template>
 </resume-meta>
 
-I freelance under the name 13protons, and provide full stack development and design services for web based projects. Portfolio can be found at 13protons.com
+I freelance under the name 13protons, and provide a range of services for web based projects. 
 
 ## Apigee
 
@@ -139,9 +142,11 @@ I freelance under the name 13protons, and provide full stack development and des
   <template #location>Detroit and Bay Area</template>
 </resume-meta>
 
-I had two major roles at Apigee. The first was being part of a sales process by building demo and POC mobile apps with a prospective client’s brand to illustrate how they could benefit from Apigee’s suite of API technology.
+Apigee is a provider of API Gateway services that was acquired by Google Cloud Platform in 2014.
 
-I also joined the IOT team for over a year helping to build what is now Zetta and Apigee Link. My roles on this team were conributing to interaction design, web design, front end web implementation with an Angular/Nodejs/Ruby stack, and tutorial content development.
+I had two major roles at Apigee. The first was being part of the client sales process by building demo and proof-of-concept mobile apps with a prospective client’s brand to illustrate how they could benefit from Apigee’s suite of API technology.
+
+I also joined the IOT team for over a year helping to build what became Zetta and Apigee Link. Zetta was an ambitious IOT orchestration system that included a discovery server and gateway, device firmware for IOT devices of varying capabilities, and a visualization tool for monitoring your fleet of devices. My roles on this team were conributing to interaction design, web design, front end web implementation with an Angular/Nodejs/Ruby stack, and tutorial content development.
 
 Both roles at Apigee involved working with new, and upcoming technology while coordinating with teams located worldwide including Detroit, SF Bay Area, EU/London, and Bangalore, India.
 
@@ -155,7 +160,7 @@ Both roles at Apigee involved working with new, and upcoming technology while co
   <template #location>Detroit, MI</template>
 </resume-meta>
 
-I periodically teach for Girl Develop It Detroit on topics such as JavaScript, HTML and CSS.
+I taught classes for Girl Develop It Detroit on topics such as JavaScript, HTML and CSS. I delivered pre-set cirriculum in multi-day teaching formats, and developed some of my own cirriculum along the way. 
 
 * <StyleLink href="https://girldevelopit.com">Girl Develop It Website</StyleLink>
 
@@ -182,6 +187,8 @@ I taught classes on a range of technical topics, including HTML, CSS, JavaScript
 I managed all design related components of the Detroit Regional Chamber online identities. I photographed for their magazine, the Detroiter (circulation ~ 20k), I develop applications and plugins for their websites’ platforms. Later in my tenure at the DRC, I helped project manage the redesign & re-implementation of detroitchamber.com/.
 
 * <StyleLink href="https://www.detroitchamber.com">Detroit Chamber Website</StyleLink>
+
+----
 
 Other Projects
 

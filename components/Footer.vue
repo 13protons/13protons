@@ -5,7 +5,11 @@
 
   <div class="flex justify-center pt-12 pb-4 space-x-4 print:block">
 
-    <div class="print:hidden"><StyleLink href="mailto:hello@13protons.com" >Contact</StyleLink></div>
+    <div class="print:hidden">
+      <!-- <StyleLink href="mailto:hello@13protons.com" >Contact</StyleLink> -->
+      <span class="link cursor-pointer" @click="trymail">Contact</span>
+
+    </div>
 
     <div class="hidden print:block"><StyleLink href="hello@13protons.com" >Contact</StyleLink></div>
 
@@ -60,10 +64,28 @@
 <script>
 export default {
   name: 'DefaultLayout',
+  data() {
+    return {
+      botwait: false
+    }
+  },
   computed: {
     year() {
       const d = new Date();
       return d.getFullYear();
+    }
+  },
+  mounted() {
+    setTimeout(()=>{
+      this.botwait = true;
+    }, 350);
+  },
+  methods: {
+    trymail() {
+      if (this.botwait) {
+        const whereto = ['mai','lto',':','hell','o@13p','roto','ns.co','m'].join('');
+        window.location = whereto;
+      }
     }
   }
 }
