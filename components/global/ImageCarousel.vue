@@ -24,7 +24,6 @@
       
     </div>
     <div v-if="selected.alt" class="absolute bottom-0 w-full bg-gray-200 text-slate-900 p-4 text-center pb-8 -ml-4 md:-ml-12" @click="close">
-      {{atIndex}}, {{images.length}}<br>
       {{selected.alt}}
     </div>
   </div>
