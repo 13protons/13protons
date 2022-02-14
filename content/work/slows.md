@@ -2,6 +2,7 @@
 title: Slows BBQ
 description: 'An ambitious little site for a local restaurant'
 heroClass: 
+order: 80
 images:
   - path: 'slows/slows_home.jpg'
     alt: ''

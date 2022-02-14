@@ -2,6 +2,7 @@
 title: Lemons Telemetry
 description: 'DIY telemetry system for amature race cars'
 heroClass: 'bg-center'
+order: 55
 images: 
   - path: 'lemons/gps-arduino.jpg'
     alt: 'Telemetry hardware consisting of an arduino, GPS unit, and RF tranciever'

@@ -83,6 +83,7 @@ export default {
   async fetch() {
     this.items = await this.$nuxt.context
       .$content('/work')
+      .sortBy('order', 'desc')
       .fetch()
       .catch((err) => {
         debug('err', err)

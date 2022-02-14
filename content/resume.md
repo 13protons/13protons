@@ -1,16 +1,19 @@
 ---
-title: Resumé
-description: 
+title: Alan Languirand
+description: Resumé
 ---
 
-<print-only>
-  <template #to-hide>
-    <h1>Alan Languirand</h1>
-    <p>I'm a tech generalist with deep knowledge of front-end web development and a long list of adjacencies. I went to school thinking I would become a mechanical engineer, got an art degree instead, and then just ended up in software. I've been confusing myself and others with that blurry line ever since.</p>
-  </template>
-</print-only>
+<contact></contact>
 
-<hr>
+
+### Tools I Know
+
+<resume-skills></resume-skills>
+
+### Roles I've Had
+
+<resume-roles></resume-roles>
+### Work History
 
 ## Farebox
 

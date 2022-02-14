@@ -4,6 +4,7 @@ description: 'The best way to keep track of your vehicle based business'
 featured: true
 img: 'farebox/map-banner.jpg'
 heroClass: 'bg-center'
+order: 100
 images: 
   - path: 'farebox/map-banner.jpg'
     alt: 'Itinerary rendered on a map using driving directions and numbered stop points'

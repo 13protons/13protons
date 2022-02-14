@@ -2,6 +2,7 @@
 title: Empathy Browser
 description: 'See the web through the eyes of others'
 featured: true
+order: 70
 images: 
   - path: 'rocket/empath-demo.jpg'
     alt: 'Showing off the Empathy Browser at an internal hackathon'

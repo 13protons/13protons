@@ -2,6 +2,7 @@
 title: NGI Emulator
 description: The developer experience for building apps in General Motors' vehicles
 featured: true
+order: 90
 images: 
   - path: 'ngi/heavy-metal-racing.jpg'
     alt: 'Testing the 2D top-down aracde game we created called Heavy Metal Racing, controlled wirelessly with real vehicles'

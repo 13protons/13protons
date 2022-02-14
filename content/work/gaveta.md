@@ -1,6 +1,7 @@
 ---
 title: Gaveta
 description: 'An open-source and mobile-friendly drawer component built for Vue.js'
+order: 40
 images:
   - path: 'gaveta/drawer.jpg'
     alt: 'The Gaveta readme file showing installation and basic usage'

@@ -1,6 +1,7 @@
 ---
 title: Spark Design System
 description: 'The official component library of Rocket Mortgage'
+order: 10
 images:
   - path: 'spark/homepage.jpg'
 ---

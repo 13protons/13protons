@@ -4,6 +4,7 @@ description: 'Web development classes and workshops in Detroit'
 featured: true
 img: 'apprend/apprend_shirts.jpg'
 heroClass: 'bg-center'
+order: 60
 images: 
   - path: 'apprend/apprend_shirts.jpg'
     alt: 'Shirts created for instructors to wear while teaching and for others to buy as a way to support Apprend'
