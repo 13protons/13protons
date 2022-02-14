@@ -93,6 +93,7 @@ export default {
 
     this.items = await this.$nuxt.context.$content('/work')
                         .where({ featured: true })
+                        .sortBy('order', 'desc')
                         .limit(4)
                         .fetch()
                         .catch(err => {
