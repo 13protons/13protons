@@ -1,6 +1,6 @@
 ---
 title: Lemons Telemetry
-description: 'DIY telemetry system for amature race cars'
+description: 'DIY telemetry system for amateur race cars'
 heroClass: 'bg-center'
 order: 55
 images: 
