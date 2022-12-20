@@ -23,7 +23,7 @@ images:
 
 <StyleLink href="http://slowsbarbq.com">Slows Website</StyleLink>
 
-Slows is a fixture in Detroit serving up food to enthusiastic patrons since 2005. In 2015 I had the opportunity to design and build an entirely new web presence for them while they were in the midst of a growth spurtMy  opening up two new stores and expanding their catering operations.
+Slows is a fixture in Detroit serving up food to enthusiastic patrons since 2005. In 2015 I had the opportunity to design and build an entirely new web presence for them while they were in the midst of a growth spurt, opening up two new stores and expanding their catering operations.
 
 <image-carousel :images="images"></image-carousel>
 

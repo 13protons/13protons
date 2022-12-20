@@ -4,10 +4,10 @@ description: 'In vehicle apps built with a declarative API and a focus on safety
 heroClass: bg-center
 order: 95
 images: 
-  - path: 'ngi/dff-init.jpg'
-    alt: 'Command line interface for creating a new in-vehicle app with the NGI emulator and Driver First Framework'
   - path: 'ngi/hackathon.jpg'
     alt: Our team sponsored a hackathon at Artist's Asylum in Boston where teams competed to see who could build the most interesting and innnovative in-vehicle apps using our tools
+  - path: 'ngi/dff-init.jpg'
+    alt: 'Command line interface for creating a new in-vehicle app with the NGI emulator and Driver First Framework'
   - path: 'ngi/nyt.jpg'
     alt: 'New York Times app created as part of 20 apps in 20 days'
   - path: 'ngi/podcast.jpg'
@@ -17,7 +17,7 @@ images:
 ---
 <StyleLink href="https://developer.gm.com/">GM Developer Site</StyleLink>
 
-The Driver First Framework is a project I led development on while at General Motors focused on building in-vehicle apps that honor strict guidelines for preventing distracted driving. We created a specification for declaratively writing application that would use pre-built and branded UI components. We provided thoughtful hooks for adding customization and novel behavior, and codified what we learned about the company's internal software validation process do reduce the pain of discovering those guidelines only after failing safety and certification gates. 
+The Driver First Framework is a project I led development on while at General Motors focused on building in-vehicle apps that honor strict guidelines for preventing distracted driving. We created a specification for declaratively writing application that would use pre-built and branded UI components. We provided thoughtful hooks for adding customization and novel behavior, and codified what we learned about the company's internal software validation process to reduce the burden of discovering those guidelines and making them more obvious before the safety and certification gates that would normally expose them. 
 
 
 <image-carousel :images="images"></image-carousel>

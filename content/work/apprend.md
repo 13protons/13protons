@@ -1,6 +1,6 @@
 ---
 title: Apprend
-description: 'Web development classes and workshops in Detroit'
+description: 'Technology Education in Detroit'
 featured: true
 img: 'apprend/apprend_shirts.jpg'
 heroClass: 'bg-center'

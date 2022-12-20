@@ -18,11 +18,13 @@ images:
     alt: 'The U-Stall race car which competed in Lemons and carried our telemetry unit'
 ---
 
-I created telemetry system for a Lemons racecar with Arduino that allowed us to monitor basic vehicle performance and lap position from the pit during a race. 
+I created a telemetry system for a <style-link href="https://24hoursoflemons.com/">Lemons</style-link> racecar with Arduino that allowed us to monitor basic vehicle performance and lap position from the pit during a race. 
 
 <image-carousel :images="images"></image-carousel>
 
-I used short range radios and GPS to relay vehicle position locally, and created a visualization that included lap count, lap times, and vehicle position on the race track by modeling the race track and in GeoJSON. The system was able to help us understand when the vehicle was coming in to the pit accurately, showed total lap count per unit time, and provided lap times in close agreement with official timing. 
+The system was able to help us understand when the vehicle was coming in to the pit accurately, showed total lap count per unit time, and provided lap times in close agreement with official timing. 
+
+I used short range radios and GPS to relay vehicle position locally, and created a visualization that included lap count, lap times, and vehicle position on the race track by modeling the race track and in GeoJSON. 
 
 Geofencing and geospatial analysis was used to identify high precision lap times even with a low GPS update frequency. Here's the pit view in action:
 

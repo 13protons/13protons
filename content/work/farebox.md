@@ -43,13 +43,12 @@ I took on the role of technical co-founder for this new SaaS product.
 
 <image-carousel :images="images"></image-carousel>
 
-Other aspects of Farebox include building complex schedules, managing users, customers and vehicles, creating robust quotes, deep integration with payment processing, GPS data processing, transactional email, and realtime SMS notifications, and keeping track of dozens of important details through a charter booking's lifecycle from initial inquiry through to post-service survey. 
-
+Other aspects of Farebox include building complex schedules, managing users, customers and vehicles, creating robust quotes, deep integration with payment processing, GPS data processing, transactional email, realtime SMS notifications, and keeping track of dozens of important details through a charter booking's lifecycle from initial inquiry through to post-service survey. 
 
 I brought my knowledge of front-end and server architecture, product development, design, component development and more to this project. During the course of development I learned quite a bit about what small businesses want out of fleets, and some of the finer points of building and selling SaaS. 
 
 Major technologies used to build Farebox include banner projects like Node.js, Express, Vue.js, MongoDB, Redis, Stripe, Mapbox, Postmark, Twilio, Nuxt, and Particle IOT. During the course of development I learned about containerizing with Docker, testing with Cypress, CI and deploy with Heroku, and more.
 
-My favorite parts of this project were always release announcements. Our design, build, test and release cycle was typically 1-2 weeks, and Farebox saw almost 150 releases in a 1 year+ of development. I created documentation for key aspects of the software to help users self serve, internal communication processes for surfacing and addressing blocking technical problems and downtime, and generally poured lots of energy in. 
+My favorite parts of this project were always release announcements. Our design, build, test and release cycle was typically multiple times per week, and Farebox saw almost 150 releases in a 1 year+ of development. I created documentation for key aspects of the software to help users self serve, internal communication processes for surfacing and addressing blocking technical problems and downtime, and generally poured lots of energy into the human and team side of the software. 
 
 <iframe width="100%" height="640" src="https://www.youtube.com/embed/aEZ8MK8lShM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
