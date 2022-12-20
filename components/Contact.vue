@@ -2,8 +2,8 @@
   <span class="">
     <span class="link cursor-pointer" @click="trymail">hello [at] 13protons.com</span> -
     <StyleLink href="https://www.linkedin.com/in/13protons/">LinkedIn</StyleLink> -
-    <StyleLink href="https://github.com/13protons">GitHub</StyleLink> -
-    <StyleLink href="https://twitter.com/13protons">Twitter</StyleLink>
+    <StyleLink href="https://github.com/13protons">GitHub</StyleLink>
+    <!-- <StyleLink href="https://twitter.com/13protons">Twitter</StyleLink> -->
   </span>
 </template>
 

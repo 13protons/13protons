@@ -2,24 +2,41 @@
 title: Alan Languirand
 description: Resumé
 ---
-
+<about></about>
 <contact></contact>
 
-
-### Tools I Know
-
-<resume-skills></resume-skills>
 
 ### Roles I've Had
 
 <resume-roles></resume-roles>
+### Tools I Know
+
+<resume-skills></resume-skills>
+
 ### Work History
+
+## Future
+
+<resume-meta>
+  <template #role>Lead Developer</template>
+  <template #duration>March 2022 - Present </template>
+  <template #location>Detroit, MI & NYC</template>
+</resume-meta>
+
+I joined Future as a seasoned developer and product leader with absolutely no experience in the team's current tech stack. In what felt like no time I was up to speed on building Flutter apps for iOS and contributing to an app with some of the DNA from my last startup that I could have certainly used when I was starting out - tools for entreprenaurs to get paid for their work and keep their business separate from their personal finances. 
+
+My focus has been on front-end mobile UI using Flutter. In addition to learning the tooling I brought my knowledge of accessibility, design, and workflow dynamics to help shape the product and make it usable by larger groups of people. While I was learning about `CustomScrollView`s, `GestureDetector`s and the finer points of conforming to parent constraints I also got a crash course in how to integrate name brand 3rd party development shops and high profile design agencies into the processing of building a dense app for a tiny startup. 
+
+Future is currently in the app store but in private beta with big news due early 2023.
+
+* <StyleLink href="https://www.future.work">Future marketing site</StyleLink>
+* <StyleLink href="https://apps.apple.com/us/app/future-be-your-own-boss/id1573466860">Future app</StyleLink>
 
 ## Farebox
 
 <resume-meta>
   <template #role>Technical Founder</template>
-  <template #duration>April 2021 - Present </template>
+  <template #duration>April 2021 - March 2022 </template>
   <template #location>Detroit, MI</template>
 </resume-meta>
 

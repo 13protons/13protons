@@ -11,6 +11,9 @@ export default {
   data() {
     return {
      skills: [
+        'Flutter',
+        'Dart',
+        'iOS',
         'Node',
         'Vue',
         'Webpack',
@@ -49,6 +52,7 @@ export default {
         'Notion',
         'Basecamp',
         'Productboard',
+        'Miro'
       ]
     }
   }
