@@ -1,15 +1,15 @@
 <template>
-  <div class="pt-16">
+  <div class="pt-16 print:pt-0">
     <div class="px-4">
 
     <div class="py-8">  
-      <h1 class="text-5xl font-bold mb-4">
+      <h1 class="text-4xl font-bold mb-4 print:mb-0">
         {{ page.title }}
       </h1>    
-      <p class="content text-2xl">{{ page.description }}</p>
+      <p class="content text-2xl print:hidden">{{ page.description }}</p>
     </div>
    
-    <nuxt-content class="prose-lg max-w-prose dark:prose-invert" :document="page"/>
+    <nuxt-content class="prose-base max-w-prose dark:prose-invert" :document="page"/>
     </div>
   </div>
 </template>
