@@ -32,7 +32,7 @@
     </div>
     
    
-    <nuxt-content class="prose-lg max-w-prose dark:prose-invert" :document="page"/>
+    <nuxt-content class="prose-base max-w-prose dark:prose-invert" :document="page"/>
     </div>
   </div>
 </template>

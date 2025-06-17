@@ -1,5 +1,5 @@
 <template>
-<div class="absolute top-0 right-0 flex flex-row space-x-px dark:text-white text-gray-500">
+<div class="absolute top-0 right-0 flex flex-row space-x-px dark:text-white text-gray-500 print:hidden">
    <NuxtLink to="/" class="opacity-40 hover:opacity-100 ">
       <svg
         class="w-12 h-12 p-2 transition-opacity duration-500"

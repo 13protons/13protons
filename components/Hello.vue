@@ -4,12 +4,9 @@
     <div class="text-lg max-w-prose leading-relaxed space-y-6 ">
       <p>You're probably here because you want to learn more about me, stumbled across one of my projects, or because I sent you a link. Welcome.</p>
 
-      <p>Professionally, I've worked for scrappy startups, big corporations, and many sizes in between. I've written code, led teams, develop product and even had time for some fun. I have a bias for action and care about the small details.</p>
-
-      
+      <p>Professionally, I've worked for scrappy startups, big corporations, and many sizes in between. I've led teams, written code, developed products and even had time for some fun. I have a bias for action and care about the small details.</p>
 
       <p class="mb-0">
-        Get in touch if you like what you see!<br>
         <Contact />
       </p>
 

@@ -14,6 +14,17 @@ module.exports = {
   
       //   'xl': {'max': '1279px'},
       // },
+      typography: {
+        base: {
+          css: {
+            hr: {
+              marginTop: '1em', // Example: Adjust top margin
+              marginBottom: '1em', // Example: Adjust bottom margin
+            },
+            // ... customize other elements or modifiers if needed
+          },
+        },
+      },
     }
   },
   variants: {},

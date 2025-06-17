@@ -1,5 +1,5 @@
 <template>
-  <div class="font-mono">
+  <div class="font-mono colortags">
     <span v-for="skill in skills" :key="skill" class="inline-block">
       <ResumeFancyText>{{skill}}</ResumeFancyText>&nbsp;
     </span>
@@ -11,7 +11,12 @@ export default {
   data() {
     return {
      skills: [
-        'Developer',
+        'Engineering Manager',
+        'Software Engineer',
+        'Full Stack Developer',
+        'Front End Developer',
+        'Back End Developer',
+        'Architect',
         'Designer',
         'Photographer',
         'Tech Lead',
